@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C2CBD7B-744F-53DE-8C92-45F51750021D" name="cars">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B897E54F-E002-B63C-85F9-6A41A4DBB1EB" name="sales">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 14:15:06 UTC</createdTime>
+<createdTime>2022-10-05 18:58:46 UTC</createdTime>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <engineerTo>
 <item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="58206C2F-7398-9DF9-1C0B-210CBDC7B494">
+<Attribute name="id" id="15BA0023-9E11-A758-0AE6-8819E8C45479">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 14:15:12 UTC</createdTime>
+<createdTime>2022-10-05 18:59:00 UTC</createdTime>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <engineerTo>
 <item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="true"/>
@@ -27,52 +27,55 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="year_of_manufacture" id="CF01FC24-CC8F-1662-BF16-35A76819058C">
+<Attribute name="date_of_sale" id="87B01D9B-AFF2-82C4-8BDA-31500F9DA276">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 14:16:12 UTC</createdTime>
+<createdTime>2022-10-05 18:59:07 UTC</createdTime>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <engineerTo>
 <item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="kilometers" id="142EF86E-B232-5639-8EB9-64F41D7D216E">
-<createdBy>misho</createdBy>
-<createdTime>2022-10-05 14:20:01 UTC</createdTime>
-<ownerDesignName>AutoSaloon</ownerDesignName>
-<engineerTo>
-<item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="price" id="E65E3806-29BC-64CA-C8A7-90B79C16C075">
+<Attribute name="id1" id="74D49B27-93C3-AC9D-2BBB-10D09D7B21E5">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 14:22:00 UTC</createdTime>
+<createdTime>2022-10-05 18:59:36 UTC</createdTime>
+<generatorID>C656CC6F-1F47-B582-BF18-31344B224566</generatorID>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <engineerTo>
 <item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="true"/>
 </engineerTo>
+<referedAttribute>A613C1A3-94A1-F4A5-1270-8519BDF88074</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT043</logicalDatatype>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="make_model_id" id="DB9256ED-9A2E-92A5-76C3-611F0FCE4D5C">
+<Attribute name="id2" id="C85CAA40-99B2-9A45-B6DE-8A9252EF18D2">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 14:43:24 UTC</createdTime>
-<generatorID>F2D6214C-5870-C99C-7110-AE52E50C5AB1</generatorID>
+<createdTime>2022-10-05 19:00:08 UTC</createdTime>
+<generatorID>35129A17-8385-BCC5-7B4D-9DC340DEEE9C</generatorID>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <engineerTo>
 <item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="true"/>
 </engineerTo>
-<referedAttribute>3D640814-5B42-69B7-D263-1F93EB717079</referedAttribute>
+<referedAttribute>58206C2F-7398-9DF9-1C0B-210CBDC7B494</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="47AF64A6-15E6-17E1-62A5-1D156A5D2125">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 19:00:42 UTC</createdTime>
+<generatorID>C15E3039-9BA6-C3D0-2DEB-8D94DAACD614</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<engineerTo>
+<item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="true"/>
+</engineerTo>
+<referedAttribute>1706D80C-073E-1AEB-10F8-C78BE947C022</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -80,16 +83,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E1A70024-E28E-140F-8578-459342B0EDBC" name="car_make_models PK">
+<identifier id="BA7E2E51-FCFB-F0EA-67E4-F4DC1EFCFCC1" name="sales PK">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 14:16:03 UTC</createdTime>
+<createdTime>2022-10-05 18:59:05 UTC</createdTime>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <engineerTo>
 <item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>58206C2F-7398-9DF9-1C0B-210CBDC7B494</attributeRef>
+<attributeRef>15BA0023-9E11-A758-0AE6-8819E8C45479</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

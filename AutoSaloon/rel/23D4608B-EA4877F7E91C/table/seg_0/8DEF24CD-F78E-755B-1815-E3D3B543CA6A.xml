@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00EE0989-B3DD-4228-7F44-D7EC2666E8ED" name="cars">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8DEF24CD-F78E-755B-1815-E3D3B543CA6A" name="cars">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 14:45:29 UTC</createdTime>
+<createdTime>2022-10-05 19:01:16 UTC</createdTime>
 <generatorID>8C2CBD7B-744F-53DE-8C92-45F51750021D</generatorID>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="8D222DB3-F3A5-8B48-EC81-913D2B1E1C43">
+<Column name="id" id="D40B1E77-CACA-3813-A366-97CE3AA7DF5A">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 14:45:29 UTC</createdTime>
+<createdTime>2022-10-05 19:01:16 UTC</createdTime>
 <generatorID>58206C2F-7398-9DF9-1C0B-210CBDC7B494</generatorID>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="year_of_manufacture" id="84E7D877-3CD4-7380-7888-CCE357C24053">
+<Column name="year_of_manufacture" id="031CF423-8D66-8DF1-2DB0-A60467B04ED1">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 14:45:29 UTC</createdTime>
+<createdTime>2022-10-05 19:01:16 UTC</createdTime>
 <generatorID>CF01FC24-CC8F-1662-BF16-35A76819058C</generatorID>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,9 +31,9 @@
 <ownDataTypeParameters>5,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="kilometers" id="9C16E4A9-06C8-713A-7C2E-B14F22E5C4BD">
+<Column name="kilometers" id="A9F5F072-053F-F3B2-4749-C776C2714DD3">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 14:45:29 UTC</createdTime>
+<createdTime>2022-10-05 19:01:16 UTC</createdTime>
 <generatorID>142EF86E-B232-5639-8EB9-64F41D7D216E</generatorID>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -42,9 +42,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="price" id="0FB8008D-2EC4-2288-8AA2-4AF8D1525726">
+<Column name="price" id="5E6599DD-F1A8-7F2A-32E5-44EADAB9C0B5">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 14:45:29 UTC</createdTime>
+<createdTime>2022-10-05 19:01:16 UTC</createdTime>
 <generatorID>E65E3806-29BC-64CA-C8A7-90B79C16C075</generatorID>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -53,9 +53,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="car_make_model_id" id="BF70D73A-04C5-A6C8-03F9-AC4567C19B87">
+<Column name="car_make_model_id" id="1C1A0610-A92E-D532-1209-1FDA277386A4">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 14:45:29 UTC</createdTime>
+<createdTime>2022-10-05 19:01:16 UTC</createdTime>
 <generatorID>DB9256ED-9A2E-92A5-76C3-611F0FCE4D5C</generatorID>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -65,32 +65,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="31A0FE34-B562-D3C9-8B71-F912EEC2FF82" referredColumn="7EC84528-D7FE-8520-55F9-BE9CBB7311A3"/>
+<colAssociation fkAssociation="9539DABD-4D5B-0EBD-5BA1-CDE43672E73B" referredColumn="D7D024D3-4541-0934-C189-C6F4616FEB69"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="A4E65E1C-769E-C7E6-BBCA-A2B6D9E12D88" name="cars_PK">
+<ind_PK_UK id="84D2FB83-D64D-235D-A32C-61D4271502C8" name="cars_PK">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 14:45:29 UTC</createdTime>
+<createdTime>2022-10-05 19:01:16 UTC</createdTime>
 <generatorID>E1A70024-E28E-140F-8578-459342B0EDBC</generatorID>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8D222DB3-F3A5-8B48-EC81-913D2B1E1C43"/>
+<colUsage columnID="D40B1E77-CACA-3813-A366-97CE3AA7DF5A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4F455982-D0EC-81D8-81CA-A99A26256FB1" name="cars_car_make_model_FK">
+<ind_PK_UK id="166F9FD5-6BE7-3599-3EB5-AEAA4DD64907" name="cars_car_make_model_FK">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 14:45:29 UTC</createdTime>
+<createdTime>2022-10-05 19:01:16 UTC</createdTime>
 <generatorID>F2D6214C-5870-C99C-7110-AE52E50C5AB1</generatorID>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BF70D73A-04C5-A6C8-03F9-AC4567C19B87"/>
+<colUsage columnID="1C1A0610-A92E-D532-1209-1FDA277386A4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
