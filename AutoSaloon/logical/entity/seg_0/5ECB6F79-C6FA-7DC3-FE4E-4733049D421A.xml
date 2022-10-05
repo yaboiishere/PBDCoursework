@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5ECB6F79-C6FA-7DC3-FE4E-4733049D421A" name="position">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:05:19 UTC</createdTime>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<engineerTo>
+<item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="278D71D4-F4C2-8224-A533-BA68D5939E1A">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:05:49 UTC</createdTime>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<engineerTo>
+<item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="218D94A1-5EF3-EBB5-8498-98EBDC36976F">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:06:02 UTC</createdTime>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<engineerTo>
+<item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DBBC2541-F255-8350-8B7C-546ED8D97E59" name="position PK">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:06:00 UTC</createdTime>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>278D71D4-F4C2-8224-A533-BA68D5939E1A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

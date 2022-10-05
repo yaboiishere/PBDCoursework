@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC904812-F563-724C-F1BA-6AD94B664E78" name="employees">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:12:33 UTC</createdTime>
+<generatorID>195B6817-BECB-3D34-A0D3-0159CE7F3AD7</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="03924F48-512E-ACF5-B1F6-564A38FA772C">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:12:33 UTC</createdTime>
+<generatorID>1706D80C-073E-1AEB-10F8-C78BE947C022</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="4A35D3EC-0358-03F3-81F8-911B0A85F8E2">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:12:33 UTC</createdTime>
+<generatorID>2B325D37-B795-6632-A438-FA109257AB2C</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="F98150B7-7943-1BE2-238D-5B1BAB18BA49">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:12:33 UTC</createdTime>
+<generatorID>B7013E43-A219-637C-B8D1-15F3CC0330F7</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="position_id" id="0A9F4AC6-7E73-0893-1FA1-3D3114B70874">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:12:33 UTC</createdTime>
+<generatorID>FDFCE950-B213-CAB7-74B8-69AC210A335C</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA0AF996-6AFD-BC27-CB28-B57EF2719954" referredColumn="53E51BBC-AD90-B56D-3CF7-BD580254A574"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="421852D9-595A-6D88-01AC-BC2D5AC8C70E" name="employees_PK">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:12:33 UTC</createdTime>
+<generatorID>714BDC4C-30F1-54EC-E9DF-7B6505376D60</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03924F48-512E-ACF5-B1F6-564A38FA772C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FE91710-0A0B-BBEE-90C7-C56DCFA63941" name="employees_position_FK">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:12:33 UTC</createdTime>
+<generatorID>3B0FE2A3-5D68-D4A6-3C7C-F5A3330C846C</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A9F4AC6-7E73-0893-1FA1-3D3114B70874"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

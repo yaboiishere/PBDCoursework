@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15E3397F-7FAE-E0E0-98E2-85CE2AD07CE3" name="car_models">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:45:29 UTC</createdTime>
+<generatorID>65C3FA13-AB24-391E-AFFB-41E257FBF5D3</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1F014DD3-E076-9E34-1B39-F385724B866E">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:45:29 UTC</createdTime>
+<generatorID>E9CA112E-6858-35EE-2049-26A2B7ACA453</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="1AB42410-FAA4-2E10-2759-4F07FBE73F58">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:45:29 UTC</createdTime>
+<generatorID>3B4D3E6A-25AC-5E0E-E428-264E065A19DB</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F89E83B7-627B-E868-9518-AAF3B11060E9" name="car_models_PK">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:45:29 UTC</createdTime>
+<generatorID>471E506F-2C74-5393-D467-330B50B864DF</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F014DD3-E076-9E34-1B39-F385724B866E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

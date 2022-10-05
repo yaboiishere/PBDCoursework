@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00EE0989-B3DD-4228-7F44-D7EC2666E8ED" name="cars">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:45:29 UTC</createdTime>
+<generatorID>8C2CBD7B-744F-53DE-8C92-45F51750021D</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8D222DB3-F3A5-8B48-EC81-913D2B1E1C43">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:45:29 UTC</createdTime>
+<generatorID>58206C2F-7398-9DF9-1C0B-210CBDC7B494</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="year_of_manufacture" id="84E7D877-3CD4-7380-7888-CCE357C24053">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:45:29 UTC</createdTime>
+<generatorID>CF01FC24-CC8F-1662-BF16-35A76819058C</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kilometers" id="9C16E4A9-06C8-713A-7C2E-B14F22E5C4BD">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:45:29 UTC</createdTime>
+<generatorID>142EF86E-B232-5639-8EB9-64F41D7D216E</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="0FB8008D-2EC4-2288-8AA2-4AF8D1525726">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:45:29 UTC</createdTime>
+<generatorID>E65E3806-29BC-64CA-C8A7-90B79C16C075</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="car_make_model_id" id="BF70D73A-04C5-A6C8-03F9-AC4567C19B87">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:45:29 UTC</createdTime>
+<generatorID>DB9256ED-9A2E-92A5-76C3-611F0FCE4D5C</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31A0FE34-B562-D3C9-8B71-F912EEC2FF82" referredColumn="7EC84528-D7FE-8520-55F9-BE9CBB7311A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4E65E1C-769E-C7E6-BBCA-A2B6D9E12D88" name="cars_PK">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:45:29 UTC</createdTime>
+<generatorID>E1A70024-E28E-140F-8578-459342B0EDBC</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D222DB3-F3A5-8B48-EC81-913D2B1E1C43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F455982-D0EC-81D8-81CA-A99A26256FB1" name="cars_car_make_model_FK">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:45:29 UTC</createdTime>
+<generatorID>F2D6214C-5870-C99C-7110-AE52E50C5AB1</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF70D73A-04C5-A6C8-03F9-AC4567C19B87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

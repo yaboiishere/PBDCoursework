@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="car_car_make_models" directorySegmentName="seg_0" id="F2D6214C-5870-C99C-7110-AE52E50C5AB1">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-05 14:43:24 UTC</createdTime>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<engineerTo>
+<item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="true"/>
+</engineerTo>
+<sourcePk>5020873B-F6B2-9BB8-C287-436BD9914380</sourcePk>
+<identifying>false</identifying>
+<nameOnTarget>make_model_id</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FD86C6FB-E068-2C53-A6B2-84DDB5B580C5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8C2CBD7B-744F-53DE-8C92-45F51750021D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
