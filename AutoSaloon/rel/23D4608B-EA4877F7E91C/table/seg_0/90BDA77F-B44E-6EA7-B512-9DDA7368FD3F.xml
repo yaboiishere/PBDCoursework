@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F764F81C-A87D-ADB9-25D1-9D3E6CE050EF" name="car_models">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90BDA77F-B44E-6EA7-B512-9DDA7368FD3F" name="city">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 19:01:16 UTC</createdTime>
-<generatorID>65C3FA13-AB24-391E-AFFB-41E257FBF5D3</generatorID>
+<createdTime>2022-10-06 07:16:27 UTC</createdTime>
+<generatorID>AB628454-8A64-FA43-27FC-36C7C49B71AF</generatorID>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="0E8806BD-CFE5-C9A2-818B-0CF90B4DFCA6">
+<Column name="id" id="5223FE92-A85A-BF3A-8A6D-E2BAAADC1D62">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 19:01:16 UTC</createdTime>
-<generatorID>E9CA112E-6858-35EE-2049-26A2B7ACA453</generatorID>
+<createdTime>2022-10-06 07:16:27 UTC</createdTime>
+<generatorID>D148A6BF-C16C-33EB-963B-55BF90615561</generatorID>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,29 +19,30 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="name" id="0FEC40E8-311C-7F6E-3B42-955442EA896F">
+<Column name="name" id="D8A2D8FC-3AC8-2496-6800-069C7B6F71B0">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 19:01:16 UTC</createdTime>
-<generatorID>3B4D3E6A-25AC-5E0E-E428-264E065A19DB</generatorID>
+<createdTime>2022-10-06 07:16:27 UTC</createdTime>
+<generatorID>3134E3B6-6BD9-08C8-B52B-348834A7C76C</generatorID>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="6F1DFA3F-CEA2-8710-6456-574E4600E6D8" name="car_models_PK">
+<ind_PK_UK id="F269037D-334F-8AD1-29C5-E610F67CDF3B" name="city_PK">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 19:01:16 UTC</createdTime>
-<generatorID>471E506F-2C74-5393-D467-330B50B864DF</generatorID>
+<createdTime>2022-10-06 07:16:27 UTC</createdTime>
+<generatorID>9F1D9726-BA00-9FF9-A349-BB9D0906193E</generatorID>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0E8806BD-CFE5-C9A2-818B-0CF90B4DFCA6"/>
+<colUsage columnID="5223FE92-A85A-BF3A-8A6D-E2BAAADC1D62"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

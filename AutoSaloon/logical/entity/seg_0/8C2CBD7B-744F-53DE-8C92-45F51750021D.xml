@@ -36,9 +36,8 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="kilometers" id="142EF86E-B232-5639-8EB9-64F41D7D216E">
 <createdBy>misho</createdBy>
@@ -62,17 +61,19 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT043</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="make_model_id" id="DB9256ED-9A2E-92A5-76C3-611F0FCE4D5C">
+<Attribute name="car_model_id" id="2DD504D2-8094-4F2D-966D-FB508DAA7ED8">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 14:43:24 UTC</createdTime>
-<generatorID>F2D6214C-5870-C99C-7110-AE52E50C5AB1</generatorID>
+<createdTime>2022-10-06 06:57:00 UTC</createdTime>
+<generatorID>ACFDD1B6-DC45-D265-EC3B-94761F38A4A1</generatorID>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <engineerTo>
 <item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="true"/>
 </engineerTo>
-<referedAttribute>3D640814-5B42-69B7-D263-1F93EB717079</referedAttribute>
+<referedAttribute>DEF9604F-99AA-B0D3-DFA9-38254D3D8FA0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -84,8 +85,9 @@
 <createdBy>misho</createdBy>
 <createdTime>2022-10-05 14:16:03 UTC</createdTime>
 <ownerDesignName>AutoSaloon</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="true"/>
+<item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E7DE51D-C844-C25B-F421-74233E7FAEEC" name="position">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E97B899-3FC4-D66D-8792-8918F5A542C3" name="position">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 19:01:16 UTC</createdTime>
+<createdTime>2022-10-06 07:16:27 UTC</createdTime>
 <generatorID>5ECB6F79-C6FA-7DC3-FE4E-4733049D421A</generatorID>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="F7A05955-35E4-ECC2-01DD-6136AAFA0476">
+<Column name="id" id="4352BCB4-7681-10AF-B4A0-F2CCCCEFCD8C">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 19:01:16 UTC</createdTime>
+<createdTime>2022-10-06 07:16:27 UTC</createdTime>
 <generatorID>278D71D4-F4C2-8224-A533-BA68D5939E1A</generatorID>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,29 +19,43 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="name" id="580B12EC-D29D-288F-C8BA-5069C79BD215">
+<Column name="name" id="6B52EE5B-243C-CE7A-6859-C733EA47F2B7">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 19:01:16 UTC</createdTime>
+<createdTime>2022-10-06 07:16:27 UTC</createdTime>
 <generatorID>218D94A1-5EF3-EBB5-8498-98EBDC36976F</generatorID>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment" id="E04B7A8E-E69B-BF9E-1635-1932B98412A2">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-06 07:16:27 UTC</createdTime>
+<generatorID>EBB02D23-C985-0CB1-232D-C703BFC4840E</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="32CBFF53-7D28-577A-BF4D-8199C5A39A5F" name="position_PK">
+<ind_PK_UK id="16963A3F-842A-B5A0-EA76-D9AA4165B689" name="position_PK">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 19:01:16 UTC</createdTime>
+<createdTime>2022-10-06 07:16:27 UTC</createdTime>
 <generatorID>DBBC2541-F255-8350-8B7C-546ED8D97E59</generatorID>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F7A05955-35E4-ECC2-01DD-6136AAFA0476"/>
+<colUsage columnID="4352BCB4-7681-10AF-B4A0-F2CCCCEFCD8C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -37,7 +37,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="phone" id="3BCC36BE-7FFD-4129-6F15-C60FDC184897">
 <createdBy>misho</createdBy>
@@ -49,17 +50,31 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="8BF2198D-AE44-5156-F7FC-78FC8EA7A7E4">
+<Attribute name="address" id="CE991C39-53AE-FFFE-CD71-683EFB2CD32B">
 <createdBy>misho</createdBy>
-<createdTime>2022-10-05 14:56:14 UTC</createdTime>
-<generatorID>DF6C2579-859A-21F5-6917-FD4B4144006E</generatorID>
+<createdTime>2022-10-06 07:13:50 UTC</createdTime>
 <ownerDesignName>AutoSaloon</ownerDesignName>
 <engineerTo>
 <item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="true"/>
 </engineerTo>
-<referedAttribute>3BDA662F-19EE-AFD5-B1E8-570A94E0EFD3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city_id" id="DDC2E50D-3981-AD4A-C2C5-11412D360DA4">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-06 07:14:40 UTC</createdTime>
+<generatorID>099AEF4B-43BA-A199-FE91-229F9DDB6354</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<engineerTo>
+<item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="true"/>
+</engineerTo>
+<referedAttribute>D148A6BF-C16C-33EB-963B-55BF90615561</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>

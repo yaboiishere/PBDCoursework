@@ -37,7 +37,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -45,8 +46,9 @@
 <createdBy>misho</createdBy>
 <createdTime>2022-10-05 14:53:35 UTC</createdTime>
 <ownerDesignName>AutoSaloon</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="true"/>
+<item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
