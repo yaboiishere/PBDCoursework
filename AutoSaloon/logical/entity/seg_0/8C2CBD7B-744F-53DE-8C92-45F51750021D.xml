@@ -79,6 +79,20 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="color_id" id="FDC197A8-3C59-06D4-C6DD-B59A457F837C">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-27 07:42:57 UTC</createdTime>
+<generatorID>2ECA55C2-C971-462D-B103-3C7EAA0E8E5B</generatorID>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<engineerTo>
+<item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="true"/>
+</engineerTo>
+<referedAttribute>7A369CBD-8D36-B411-2F06-091F00E20425</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E1A70024-E28E-140F-8578-459342B0EDBC" name="car_make_models PK">

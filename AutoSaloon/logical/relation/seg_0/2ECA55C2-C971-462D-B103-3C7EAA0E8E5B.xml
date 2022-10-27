@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="car_colors_pk" directorySegmentName="seg_0" id="2ECA55C2-C971-462D-B103-3C7EAA0E8E5B">
+<createdBy>misho</createdBy>
+<createdTime>2022-10-27 07:42:57 UTC</createdTime>
+<ownerDesignName>AutoSaloon</ownerDesignName>
+<engineerTo>
+<item key="23D4608B-8C21-A301-C337-EA4877F7E91C" value="true"/>
+</engineerTo>
+<sourcePk>E1B5DB54-AD6D-2D07-8333-1279E5640AC3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>575AF6A7-F7DC-C8D4-E1F5-95738BB7C246</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8C2CBD7B-744F-53DE-8C92-45F51750021D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
