@@ -66,4 +66,38 @@ INSERT INTO clients (name, phone, address, city_id) VALUES ('Ivan Petrov', '0888
 INSERT INTO clients (name, phone, address, city_id) VALUES ('Ivan Georgiev', '0888888888', 'Nikola Kozlev 25', 1);
 
 --insert position (name, payment) values
-INSERT INTO positio
+INSERT INTO position (name, payment) VALUES ('Manager', 1000);
+INSERT INTO position (name, payment) VALUES ('Sales', 500);
+INSERT INTO position (name, payment) VALUES ('Accountant', 800);
+INSERT INTO position (name, payment) VALUES ('CEO', 4000);
+
+-- CREATE TABLE employees (
+--     id          INTEGER NOT NULL,
+--     name        VARCHAR2(60) NOT NULL,
+--     phone       VARCHAR2(11) NOT NULL,
+--     position_id INTEGER NOT NULL,
+--     bonus       NUMBER(8, 2)
+-- );
+
+INSERT INTO employees (name, phone, position_id, bonus) VALUES ('Theo Ivanov', '0888888888', 1, 100);
+INSERT INTO employees (name, phone, position_id, bonus) VALUES ('Gethin Petrov', '0888888888', 2, 200);
+INSERT INTO employees (name, phone, position_id, bonus) VALUES ('Kane Lee', '0888888888', 2, 300);
+INSERT INTO employees (name, phone, position_id, bonus) VALUES ('Calvin Ralph', '0888888888', 2, 300);
+INSERT INTO employees (name, phone, position_id, bonus) VALUES ('Georgi Georgiev', '0888888888', 3, 300);
+INSERT INTO employees (name, phone, position_id, bonus) VALUES ('Yusuf Eden', '0888888888', 4, 400);
+
+-- CREATE TABLE sales (
+--     id           INTEGER NOT NULL,
+--     date_of_sale DATE NOT NULL,
+--     clients_id   INTEGER NOT NULL,
+--     cars_id      INTEGER NOT NULL,
+--     employees_id INTEGER NOT NULL
+-- );
+
+INSERT INTO sales (date_of_sale, clients_id, cars_id, employees_id) VALUES ('14.JAN.2010', 1, 1, 1);
+INSERT INTO sales (date_of_sale, clients_id, cars_id, employees_id) VALUES ('15.JAN.2010', 2, 2, 1);
+INSERT INTO sales (date_of_sale, clients_id, cars_id, employees_id) VALUES ('29.JAN.2010', 3, 4, 2);
+INSERT INTO sales (date_of_sale, clients_id, cars_id, employees_id) VALUES ('06.FEB.2010', 4, 5, 2);
+INSERT INTO sales (date_of_sale, clients_id, cars_id, employees_id) VALUES ('06.FEB.2010', 4, 7, 2);
+INSERT INTO sales (date_of_sale, clients_id, cars_id, employees_id) VALUES ('09.FEB.2010', 5, 8, 3);
+INSERT INTO sales (date_of_sale, clients_id, cars_id, employees_id) VALUES ('02.MAR.2010', 6, 10, 3);
