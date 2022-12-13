@@ -2,6 +2,7 @@ CREATE TABLE car_marks (
     id   INTEGER NOT NULL,
     name VARCHAR2(50) NOT NULL
 );
+ALTER TABLE car_marks ADD CONSTRAINT unique_marks UNIQUE (name);
 
 ALTER TABLE car_marks ADD CONSTRAINT car_marks_pk PRIMARY KEY ( id );
 
@@ -22,6 +23,7 @@ CREATE TABLE car_models (
     car_marks_id INTEGER NOT NULL
 );
 
+ALTER TABLE car_models ADD CONSTRAINT unique_name_car_marks_id UNIQUE (name, car_marks_id);
 ALTER TABLE car_models ADD CONSTRAINT car_models_pk PRIMARY KEY ( id );
 
 CREATE SEQUENCE car_models_id_seq;
