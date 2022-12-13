@@ -39,3 +39,47 @@ SELECT * from CAR_MARKS;
 
 DELETE FROM car_marks WHERE name = 'BMW2lol';
 SELECT id FROM CAR_MARKS WHERE NAME = 'X5';
+
+-- colors insert procedure
+CREATE OR REPLACE PROCEDURE colors_insert
+(
+    v_colors_name colors.color%TYPE
+) AS
+    BEGIN
+    INSERT INTO COLORS (color) VALUES (v_colors_name);
+END;
+
+BEGIN
+colors_insert('testred');
+end;
+
+select * from colors;
+delete from colors where color = 'testred';
+
+--car insert procedure
+CREATE OR REPLACE PROCEDURE car_insert
+(
+    v_car_models_name car_models.name%TYPE,
+    v_car_marks_name car_marks.name%TYPE,
+    v_colors_name colors.color%TYPE,
+    v_car_year cars.YEAR_OF_MANUFACTURE%TYPE,
+    v_car_price cars.PRICE%TYPE,
+    v_car_kilometers cars.KILOMETERS%TYPE
+) AS
+    BEGIN
+        CAR_MODELS_INSERT(v_car_models_name, v_car_marks_name);
+        COLORS_INSERT(v_colors_name);
+        declare
+            idd Number;
+            idd2 Number;
+        Begin
+            SELECT ID INTO idd FROM CAR_MODELS  where NAME = v_car_models_name;
+            SELECT ID INTO idd2 FROM COLORS  where COLOR = v_colors_name;
+            INSERT INTO CARS (CAR_MODELS_ID, COLORS_ID, YEAR_OF_MANUFACTURE, PRICE, KILOMETERS)
+            VALUES (idd, idd2, v_car_year, v_car_price, v_car_kilometers);
+        End;
+END;
+
+BEGIN
+car_insert('BMW', 'X5testtt', 'red', 2010, 10000, 100000);
+end;
