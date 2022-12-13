@@ -62,7 +62,7 @@ JOIN cars ON sales.cars_id = cars.id
 JOIN car_models ON cars.car_models_id = car_models.id
 JOIN car_marks ON car_models.car_marks_id = car_marks.id
 JOIN colors ON cars.colors_id = colors.id
-ORDER BY SALES.DATE_OF_SALE DESC)  WHERE ROWNUM <= 5 ORDER BY PRICE DESC;
+ORDER BY SALES.DATE_OF_SALE DESC)  WHERE ROWNUM <= 5 ORDER BY DATE_OF_SALE DESC;
 
 --cars bought by client
 SELECT CLIENTS.NAME, CAR_MODELS.NAME as "Model name", CAR_MARKS.NAME as "Mark name", COLORS.COLOR, CARS.KILOMETERS, CARS.PRICE, SALES.DATE_OF_SALE, EMPLOYEES.Name as "Sold by" FROM sales
@@ -73,7 +73,7 @@ JOIN car_models ON cars.car_models_id = car_models.id
 JOIN car_marks ON car_models.car_marks_id = car_marks.id
 JOIN colors ON cars.colors_id = colors.id
 -- WHERE CLIENTS.NAME = 'Stoyan Stoyanov';
-WHERE CLIENTS.NAME = ?;
+WHERE CLIENTS.NAME = 'Ivan Ivanov';
 
 --cars sold between dates
 SELECT EMPLOYEES.NAME, SALES.DATE_OF_SALE, CAR_MODELS.NAME as "Model name", CAR_MARKS.NAME as "Mark name", COLORS.COLOR, CARS.KILOMETERS, CARS.PRICE, CLIENTS.NAME as "Client Name" FROM sales
