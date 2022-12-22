@@ -37,17 +37,17 @@ INSERT INTO colors (color) VALUES ('Yellow');
 
 --insert into cars (car_models_id, colors_id, price, year_of_manufacture, kilometers)
 
-INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers) VALUES (1, 1, 10000, 2000, 104523);
-INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers) VALUES (2, 2, 20000, 2001, 100230);
-INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers) VALUES (3, 3, 25000, 2002, 130121);
-INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers) VALUES (4, 4, 3000, 2003, 202012);
-INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers) VALUES (5, 5, 3000, 2004, 240705);
-INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers) VALUES (6, 1, 2200, 2005, 203005);
-INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers) VALUES (7, 2, 2300, 2006, 234005);
-INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers) VALUES (8, 3, 2400, 2007, 208535);
-INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers) VALUES (9, 4, 2500, 2008, 200235);
-INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers) VALUES (10, 5, 4600, 2003, 200235);
-INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers) VALUES (11, 1, 5700, 2004, 200235);
+INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers, quantity) VALUES (1, 1, 10000, 2000, 104523);
+INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers, quantity) VALUES (2, 2, 20000, 2001, 100230);
+INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers, quantity) VALUES (3, 3, 25000, 2002, 130121);
+INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers, quantity) VALUES (4, 4, 3000, 2003, 202012);
+INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers, quantity) VALUES (5, 5, 3000, 2004, 240705);
+INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers, quantity) VALUES (6, 1, 2200, 2005, 203005);
+INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers, quantity) VALUES (7, 2, 2300, 2006, 234005);
+INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers, quantity) VALUES (8, 3, 2400, 2007, 208535);
+INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers, quantity) VALUES (9, 4, 2500, 2008, 200235);
+INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers, quantity) VALUES (10, 5, 4600, 2003, 200235);
+INSERT INTO cars (car_models_id, colors_id, price, year_of_manufacture, kilometers, quantity) VALUES (11, 1, 5700, 2004, 200235);
 
 --insert into city (name) values
 

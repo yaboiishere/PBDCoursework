@@ -203,3 +203,4 @@ ALTER TABLE sales
         REFERENCES employees ( id );
 
 
+ALTER TABLE cars ADD sold NUMBER(1, 0) DEFAULT 0;
